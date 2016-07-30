@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RiplayServer</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div id="container">
+    <div class="col-md-3 header">Now Playing:</div>
+    <div class="col-md-8">
+        <span id="now-playing"><i>(Click on an item to play)</i></span>
+        <div class="row">
+            <span class="play-stop" id="play-btn">
+                <i class="fa fa-play color-green" data-toggle="tooltip" data-placement="bottom" title="Play"></i>
+            </span>
+            <span class="play-stop" id="stop-btn">
+                <i class="fa fa-stop color-red" data-toggle="tooltip" data-placement="bottom" title="Stop"></i>
+            </span>
+            <span class="control-btn" id="skip-btn">
+                <i class="fa fa-step-forward" data-toggle="tooltip" data-placement="bottom" title="Skip"></i>
+            </span>
+            <span class="control-btn" id="shuffle-btn">
+                <i class="fa fa-random" data-toggle="tooltip" data-placement="bottom" title="Shuffle"></i>
+            </span>
+            <span class="control-btn" id="playall-btn">
+                <i class="fa fa-play-circle-o" data-toggle="tooltip" data-placement="bottom" title="Play All"></i>
+            </span>
+        </div>
+    </div>
+    <div class="col-md-12" id="playlist">
+
+    </div>
+</div>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/websockets.js"></script>
+<script src="js/playlist.js"></script>
+</body>
+</html>

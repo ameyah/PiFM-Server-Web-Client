@@ -1,0 +1,53 @@
+#container {
+    width: 600px;
+    margin: 70px auto 0px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    min-height: 300px;
+    font-family: "Source Sans Pro";
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.header {
+    font-size: 18px;
+}
+
+#now-playing {
+    font-size: 18px;
+    max-width: 400px;
+    color: #666;
+    overflow: hidden !important;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.play-stop {
+    font-size: 40px;
+    margin-top: 10px;
+    display: none;
+    cursor: pointer;
+    padding-left: 16px;
+}
+
+.control-btn {
+    font-size: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+    vertical-align: super;
+}
+
+.color-green {
+    color: green;
+}
+
+.color-red {
+    color: red;
+}
+
+.list-group {
+    max-height: 400px;
+    overflow-y: scroll;
+}
